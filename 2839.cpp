@@ -10,6 +10,7 @@ int sugar(int n)
 	{
 		if (((n - (i * 5)) % 3) == 0)
 			return i + ((n - (i * 5)) / 3);
+
 		i--;
 	}
 
