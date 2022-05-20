@@ -42,7 +42,7 @@ int bfs(int y, int x, int num, vector<vector<int>>& visited, vector<vector<int>>
 vector<int> solution(int m, int n, vector<vector<int>> picture) {
     vector<int> answer(2);
     vector<vector<int>> visited(m, vector<int>(n));      // 방문 여부 확인
-    map<int, int> check;           // 원소 확인
+    map<int, int> check;                                 // 원소 확인
 
     for (int i = 0; i < m; i++)
     {
